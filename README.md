@@ -1,2 +1,2 @@
-# CSharpersUnite
-C# language repository to learn and explore.
+# JavaScriptersUnite
+JavaScript language repository to learn and explore.
