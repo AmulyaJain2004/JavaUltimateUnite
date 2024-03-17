@@ -1,2 +1,2 @@
-# JavaScriptersUnite
-JavaScript language repository to learn and explore.
+# JavaUltimateUnite
+Java language repository to learn and explore.
