@@ -1,4 +1,4 @@
-public class Main {
+public class _3_Type_casting {
   public static void main(String[] args) {
     // Implicit casting (widening) 
     int intValue = 10; 
