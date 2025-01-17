@@ -1,4 +1,4 @@
-public class _2_Java_Data_Types {
+public class Java_Data_Types {
   public static void main(String[] args) {
     System.out.println("Hello world!");
     // Declare variables with different data types 

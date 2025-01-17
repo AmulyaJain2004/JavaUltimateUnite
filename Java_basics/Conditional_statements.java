@@ -1,4 +1,4 @@
-public class _4_Conditional_statements {
+public class Conditional_statements {
   public static void main(String[] args) {
     int number = 10;
 
