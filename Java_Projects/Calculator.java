@@ -50,6 +50,7 @@ class Calculate {
 public class Calculator {
     public static void main(String[] args) {
         while(true){
+
             Scanner sc = new Scanner(System.in);
             System.out.println("Enter two numbers: ");
             double num1 = sc.nextDouble();
@@ -57,6 +58,8 @@ public class Calculator {
             System.out.println("Enter operation: ");
             String operation = sc.next();
             Calculate calc = new Calculate();
+
+
             switch (operation) {
                 case "+":
                     calc.add(num1, num2);
@@ -88,9 +91,12 @@ public class Calculator {
                 default:
                     System.out.println("Invalid operation");
             }
+
+
             System.out.println("Do you want to continue? (y/n)");
-            String choice = sc.next();
-            if (choice == "n") {
+            char choice = sc.next().charAt(0);
+            System.out.println("-----------------------------------");
+            if (choice == 'n') {
                 break;
             }
         }
