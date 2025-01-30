@@ -55,10 +55,9 @@ public class Calculator {
             System.out.println("Enter two numbers: ");
             double num1 = sc.nextDouble();
             double num2 = sc.nextDouble();
-            System.out.println("Enter operation: ");
+            System.out.println("Enter operation from (\"+\", \"-\", \"*\", \"/\", \"%\", \"^\", \"sqrt\", \"cbrt\", \"!\"): ");
             String operation = sc.next();
             Calculate calc = new Calculate();
-
 
             switch (operation) {
                 case "+":
