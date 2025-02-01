@@ -1,9 +1,8 @@
 import java.util.Scanner;
-import java.util.ArrayList;
+
 
 class List {
-
-    public ArrayList addTask(ArrayList<String> al){
+    public String[] addTask(String[] lit){
         System.out.println("Current no. of tasks: " + al.size());
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter task index: ");
