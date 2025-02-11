@@ -7,6 +7,9 @@ class List {
         this.list = list;
         System.out.println("List set");
     }
+    public void getList() {
+        System.out.println(list);    
+    }
 
 }
 
