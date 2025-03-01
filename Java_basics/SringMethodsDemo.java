@@ -1,6 +1,4 @@
-import java.util.Locale;
-
-public class StringMethodsDemo {
+class StringMethodsDemo {
     public static void main(String[] args) {
         // Creating Strings
         String s1 = "Hello";
